@@ -92,7 +92,9 @@
 
 🔹 Community Smart Village Solutions
 
+## 🐍 Contribution Snake
 
+![Snake animation](https://github.com/hasenalbanna/hasenalbanna/blob/output/github-contribution-grid-snake.svg)
 
 ## 🌍 Connect With Me
 
