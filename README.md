@@ -2,11 +2,15 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00D9FF&center=true&width=700&lines=AI+Developer;Flutter+Developer;Full+Stack+Developer;Computer+Vision+Engineer;Chess+Technology+Innovator" />
 </p>
 
+<h1 align="center">M.R.A. Hasen Al Banna</h1>
+
+![](https://komarev.com/ghpvc/?username=hasenalbanna&color=blueviolet)
+
 <h1 align="center">Hi 👋, I'm M.R.A. Hasen Al Banna</h1>
 
 <h3 align="center">AI Developer | Full Stack Developer | ICT Undergraduate | Chess Coach</h3>
 
-<img align="right" alt="Coding" width="350" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+<img align="right" width="350" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmQ1bG9iZmVkb2k4OHU4eGFwa3M2c2NlMXhjNm1jMnM0aTRhZ2VjMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HlNaQ6gWfllcjDO/giphy.gif">
 
 ## 🚀 About Me
 
@@ -48,22 +52,13 @@
 
 ---
 
-## 💼 Featured Projects
+## 🚀 Featured Projects
 
-### 👁️ Sight Assist
-AI Navigation Assistant for the Visually Impaired
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hasenalbanna&repo=CHIROVOX)](https://github.com/hasenalbanna/CHIROVOX)
 
-### 🤟 Chirovox
-AI Sign Language Recognition Platform
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hasenalbanna&repo=3D-BP)](https://github.com/hasenalbanna/3D-BP)
 
-### ✋ AI Hand Builder
-Gesture Controlled 3D Building Platform
-
-### 🚗 Physio Rider
-AI Powered Rehabilitation Gaming Platform
-
-### ♟ My Chess Galaxy
-Chess Analysis and Coaching Application
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hasenalbanna&repo=Portfolio)](https://github.com/hasenalbanna/Portfolio)
 
 ---
 
@@ -73,13 +68,31 @@ Chess Analysis and Coaching Application
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hasenalbanna&layout=compact&theme=tokyonight)
 
----
+## 🏆 GitHub Trophies
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=hasenalbanna&theme=algolia&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 📈 Activity Graph
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=hasenalbanna&theme=tokyo-night)
 
 ---
+
+## 🚀 Currently Working On
+
+🔹 My Chess Galaxy
+
+🔹 AI Navigation Assistant
+
+🔹 Computer Vision Research
+
+🔹 Flutter Applications
+
+🔹 Deep Learning Projects
+
+🔹 Community Smart Village Solutions
+
+
 
 ## 🌍 Connect With Me
 
