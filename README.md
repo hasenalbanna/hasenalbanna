@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00D9FF&center=true&width=700&lines=AI+Developer;Flutter+Developer;Full+Stack+Developer;Computer+Vision+Engineer;Chess+Technology+Innovator" />
+</p>
+
 <h1 align="center">Hi 👋, I'm M.R.A. Hasen Al Banna</h1>
 
 <h3 align="center">AI Developer | Full Stack Developer | ICT Undergraduate | Chess Coach</h3>
