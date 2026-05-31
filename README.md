@@ -3,16 +3,18 @@
 </p>
 <br>
 <h1 align="center">Hi 👋, I'm M.R.A. Hasen Al Banna</h1>
-
-<h3 align="center">
-AI Developer | Full Stack Developer | ICT Undergraduate | Chess Coach
-</h3>
-
+<br>
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=hasenalbanna&color=blueviolet&style=for-the-badge" />
 </p>
 
 <img align="right" width="350" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+<h3 align="center">
+  <br>
+AI Developer | Full Stack Developer | ICT Undergraduate | Chess Coach
+</h3>
+
+
 
 ## 🚀 About Me
 
