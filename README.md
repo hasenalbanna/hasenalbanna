@@ -1,22 +1,26 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=AI+Developer;Flutter+Developer;Full+Stack+Developer;Computer+Vision+Engineer;Chess+Technology+Innovator" />
 </p>
-<br>
-<h1 align="center">Hi 👋, I'm M.R.A. Hasen Al Banna</h1>
-<br>
+
+<h1 align="center">Hi 👋,this is  Hasen Al Banna</h1>
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=hasenalbanna&color=blueviolet&style=for-the-badge" />
 </p>
 
-<img align="right" width="350" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+<table>
+<tr>
+<td width="40%">
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%">
+
+</td>
+
+<td width="60%">
+
 <h3 align="center">
-  <br>
 AI Developer | Full Stack Developer | ICT Undergraduate | Chess Coach
 </h3>
-
-
-
-## 🚀 About Me
 
 🎓 Bachelor of Technology (Hons) in ICT - KDU
 
@@ -34,6 +38,16 @@ AI Developer | Full Stack Developer | ICT Undergraduate | Chess Coach
 - AI Engineering
 - Cloud Computing
 - Advanced Flutter Development
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 About Me
+
+I am an ICT undergraduate passionate about Artificial Intelligence, Machine Learning, Computer Vision, Mobile Development, and Full Stack Development. I enjoy building innovative solutions that solve real-world problems and contribute to society through technology.
 
 ---
 
@@ -56,6 +70,8 @@ AI Developer | Full Stack Developer | ICT Undergraduate | Chess Coach
 🏅 TensorForge AI Buildathon Finalist
 
 🏅 AlgoArena Finalist
+
+🏅 Ariana Candidate Master (ACM) Title Holder in Chess
 
 ---
 
@@ -82,9 +98,6 @@ Chess Performance & Coaching Application
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hasenalbanna&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hasenalbanna&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
@@ -132,11 +145,11 @@ Chess Performance & Coaching Application
 
 ## 🌍 Connect With Me
 
-📧 hasenalbanna123@gmail.com
+📧 **hasenalbanna123@gmail.com**
 
-💼 LinkedIn: Hasen Al Banna
+💼 **LinkedIn:** Hasen Al Banna
 
-📍 Colombo, Sri Lanka
+📍 **Colombo, Sri Lanka**
 
 ---
 
