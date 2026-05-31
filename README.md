@@ -1,22 +1,24 @@
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00D9FF&center=true&width=700&lines=AI+Developer;Flutter+Developer;Full+Stack+Developer;Computer+Vision+Engineer;Chess+Technology+Innovator" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=AI+Developer;Flutter+Developer;Full+Stack+Developer;Computer+Vision+Engineer;Chess+Technology+Innovator" />
 </p>
-
-<h1 align="center">M.R.A. Hasen Al Banna</h1>
-
-![](https://komarev.com/ghpvc/?username=hasenalbanna&color=blueviolet)
 
 <h1 align="center">Hi 👋, I'm M.R.A. Hasen Al Banna</h1>
 
-<h3 align="center">AI Developer | Full Stack Developer | ICT Undergraduate | Chess Coach</h3>
+<h3 align="center">
+AI Developer | Full Stack Developer | ICT Undergraduate | Chess Coach
+</h3>
 
-<img align="right" width="350" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmQ1bG9iZmVkb2k4OHU4eGFwa3M2c2NlMXhjNm1jMnM0aTRhZ2VjMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HlNaQ6gWfllcjDO/giphy.gif">
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=hasenalbanna&color=blueviolet&style=for-the-badge" />
+</p>
+
+<img align="right" width="350" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
 ## 🚀 About Me
 
 🎓 Bachelor of Technology (Hons) in ICT - KDU
 
-🤖 Passionate about Artificial Intelligence & Machine Learning
+🤖 Passionate about Artificial Intelligence, Machine Learning & Computer Vision
 
 📱 Flutter Developer
 
@@ -24,17 +26,20 @@
 
 ♟ Chess Coach & ACM Title Holder
 
-🌱 Currently Learning:
+🌱 Currently Learning
+
 - Deep Learning
-- Cloud Computing
 - AI Engineering
-- Flutter Advanced Development
+- Cloud Computing
+- Advanced Flutter Development
 
 ---
 
 ## 🛠️ Tech Stack
 
-![My Skills](https://skillicons.dev/icons?i=java,python,cpp,flutter,react,html,css,js,firebase,mysql,aws,azure,git,github,vscode)
+<p align="center">
+<img src="https://skillicons.dev/icons?i=java,python,cpp,flutter,react,html,css,js,firebase,mysql,aws,azure,git,github,vscode" />
+</p>
 
 ---
 
@@ -42,7 +47,7 @@
 
 🏅 Cre8X 2.0 UI/UX Designathon Champion
 
-🏅 SLAAI ICAI Best AI Project Awards Finalist
+🏅 SLAAI ICAAI Best AI Project Awards Finalist
 
 🏅 Google Developer Group AIpreneurs Global Challenge Finalist
 
@@ -54,27 +59,48 @@
 
 ## 🚀 Featured Projects
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hasenalbanna&repo=CHIROVOX)](https://github.com/hasenalbanna/CHIROVOX)
+### 👁️ Sight Assist
+AI Navigation Assistant for the Visually Impaired
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hasenalbanna&repo=3D-BP)](https://github.com/hasenalbanna/3D-BP)
+### 🤟 Chirovox
+AI Sign Language Recognition Platform
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=hasenalbanna&repo=Portfolio)](https://github.com/hasenalbanna/Portfolio)
+### ✋ AI Hand Builder
+Gesture Controlled 3D Building Platform
+
+### 🚗 Physio Rider
+AI-Powered Rehabilitation Gaming Platform
+
+### ♟ My Chess Galaxy
+Chess Performance & Coaching Application
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Statistics
 
-![Hasen's GitHub stats](https://github-readme-stats.vercel.app/api?username=hasenalbanna&show_icons=true&theme=tokyonight)
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hasenalbanna&show_icons=true&theme=tokyonight&hide_border=true" />
+</p>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hasenalbanna&layout=compact&theme=tokyonight)
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hasenalbanna&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
 
 ## 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=hasenalbanna&theme=algolia&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=hasenalbanna&theme=algolia&margin-w=15&no-frame=true" />
+</p>
 
-## 📈 Activity Graph
+---
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=hasenalbanna&theme=tokyo-night)
+## 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hasenalbanna&theme=tokyo-night" />
+</p>
 
 ---
 
@@ -90,11 +116,17 @@
 
 🔹 Deep Learning Projects
 
-🔹 Community Smart Village Solutions
+🔹 Smart Village Digital Solutions
+
+---
 
 ## 🐍 Contribution Snake
 
-![Snake animation](https://github.com/hasenalbanna/hasenalbanna/blob/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasenalbanna/hasenalbanna/output/github-contribution-grid-snake.svg" />
+</p>
+
+---
 
 ## 🌍 Connect With Me
 
@@ -106,4 +138,6 @@
 
 ---
 
-⭐ "Building AI Solutions That Make Life Better"
+<p align="center">
+⭐ Building AI Solutions That Make Life Better ⭐
+</p>
