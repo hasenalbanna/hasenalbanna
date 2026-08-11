@@ -1,10 +1,12 @@
-<svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hasen Albanna - Premium Profile Card (Light)">
+<svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hasen Albanna - Premium GitHub Profile Hero (Light)">
   <defs>
+    <!-- Background Gradients -->
     <linearGradient id="bgGradL" x1="0" y1="0" x2="1180" y2="610" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#FFFFFF"/>
       <stop offset="1" stop-color="#F8FAFC"/>
     </linearGradient>
 
+    <!-- Subtle Glow Layers -->
     <radialGradient id="glowBlueL" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 140) rotate(35) scale(380 260)">
       <stop stop-color="#2563EB" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
@@ -18,6 +20,7 @@
       <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
     </radialGradient>
 
+    <!-- Main Accent Gradient (Animated) -->
     <linearGradient id="accentL" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#2563EB"/>
       <stop offset="0.5" stop-color="#06B6D4"/>
@@ -28,86 +31,252 @@
       <animate attributeName="y2" values="1;0;1" dur="10s" repeatCount="indefinite"/>
     </linearGradient>
 
+    <!-- ASCII Gradient (Blue-Cyan) -->
+    <linearGradient id="asciiGradL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="0.5" stop-color="#06B6D4"/>
+      <stop offset="1" stop-color="#2563EB"/>
+      <animate attributeName="y1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="1;0;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Text Glow Filter (Softer for light mode) -->
+    <filter id="glowTextL" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#2563EB" flood-opacity="0.4"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#06B6D4" flood-opacity="0.2"/>
+    </filter>
+
+    <!-- Shadow Filter -->
     <filter id="shadowL" x="-20%" y="-20%" width="160%" height="160%">
       <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.15"/>
+    </filter>
+
+    <!-- Blur Filters -->
+    <filter id="blur20L" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20"/>
     </filter>
     <filter id="blur8L" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="8"/>
     </filter>
-    <filter id="blur20L" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="20"/>
-    </filter>
 
+    <!-- Clip Paths -->
     <clipPath id="clipCanvasL">
       <rect x="10" y="10" width="1160" height="590" rx="28"/>
-    </clipPath>
-    <clipPath id="clipAvatarL">
-      <circle cx="230" cy="305" r="150"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#clipCanvasL)">
+    <!-- Background -->
     <rect width="1180" height="610" fill="url(#bgGradL)"/>
     <rect width="1180" height="610" fill="url(#glowBlueL)"/>
     <rect width="1180" height="610" fill="url(#glowCyanL)"/>
     <rect width="1180" height="610" fill="url(#glowGreenL)"/>
 
+    <!-- Floating Particles -->
+    <g opacity="0.3">
+      <circle cx="120" cy="80" r="2" fill="#2563EB">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 8 14; 0 0" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="420" cy="150" r="1.8" fill="#06B6D4">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -10 12; 0 0" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="980" cy="90" r="2" fill="#10B981">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 7 10; 0 0" dur="5.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1040" cy="500" r="2" fill="#06B6D4">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -12 -10; 0 0" dur="8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Main Glass Panel -->
     <rect x="36" y="36" width="1108" height="538" rx="24" fill="#F8FAFC" fill-opacity="0.92" stroke="rgba(15,23,42,0.08)" filter="url(#shadowL)"/>
-    <rect x="36" y="36" width="1108" height="538" rx="24" fill="none" stroke="url(#accentL)" stroke-opacity="0.28"/>
-    <rect x="36" y="36" width="1108" height="538" rx="24" fill="none" stroke="url(#accentL)" stroke-width="1.4" stroke-dasharray="80 120" opacity="0.35">
+    
+    <!-- Animated Border -->
+    <rect x="36" y="36" width="1108" height="538" rx="24" fill="none" stroke="url(#accentL)" stroke-opacity="0.28" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.15;0.35;0.15" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Border Shimmer -->
+    <rect x="36" y="36" width="1108" height="538" rx="24" fill="none" stroke="url(#accentL)" stroke-width="1.4" stroke-dasharray="80 120" stroke-linecap="round" opacity="0.35">
       <animate attributeName="stroke-dashoffset" values="0;-400" dur="8s" repeatCount="indefinite"/>
     </rect>
 
-    <!-- Profile Card Section -->
+    <!-- LEFT SECTION - ASCII PORTRAIT -->
     <g transform="translate(70,70)">
-      <rect x="0" y="0" width="1040" height="470" rx="20" fill="#FFFFFF" stroke="rgba(15,23,42,0.08)"/>
+      <rect x="0" y="0" width="350" height="470" rx="20" fill="#FFFFFF" stroke="rgba(15,23,42,0.08)"/>
 
-      <!-- Photo Container -->
-      <g transform="translate(40,40)">
-        <animateTransform attributeName="transform" type="translate" values="40 40; 40 34; 40 40" dur="5s" repeatCount="indefinite"/>
-        <circle cx="150" cy="195" r="152" fill="#F8FAFC" stroke="rgba(15,23,42,0.1)"/>
-        <circle cx="150" cy="195" r="150" fill="#E2E8F0"/>
+      <!-- ASCII Art Container with Float Animation -->
+      <g transform="translate(20,30)">
+        <animateTransform attributeName="transform" type="translate" values="20 30; 20 24; 20 30" dur="5s" repeatCount="indefinite"/>
+        
+        <!-- ASCII Portrait - Line by Line Reveal with Typing Animation -->
+        <text x="0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="url(#asciiGradL)" filter="url(#glowTextL)" opacity="0">
+          <tspan x="0" dy="12">
+            ████████████████████
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/>
+          </tspan>
+        </text>
+        <text x="0" y="50" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="url(#asciiGradL)" filter="url(#glowTextL)" opacity="0">
+          <tspan x="0" dy="12">
+            ██    ██    ██    ██
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>
+          </tspan>
+        </text>
+        <text x="0" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="url(#asciiGradL)" filter="url(#glowTextL)" opacity="0">
+          <tspan x="0" dy="12">
+            ████████████████████
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>
+          </tspan>
+        </text>
+        <text x="0" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="url(#asciiGradL)" filter="url(#glowTextL)" opacity="0">
+          <tspan x="0" dy="12">
+            ██          ████████
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.1s" fill="freeze"/>
+          </tspan>
+        </text>
+        <text x="0" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" fill="url(#asciiGradL)" filter="url(#glowTextL)" opacity="0">
+          <tspan x="0" dy="12">
+            ████████████████████
+            <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
+          </tspan>
+        </text>
 
-        <!-- USER PHOTO -->
-        <g clip-path="url(#clipAvatarL)">
-          <image href="https://raw.githubusercontent.com/hasenalbanna/hasenalbanna/main/profile.jpeg" x="80" y="155" width="300" height="300" preserveAspectRatio="xMidYMid slice" opacity="0.95"/>
-        </g>
-
-        <!-- Scanline effect -->
-        <rect x="0" y="40" width="300" height="10" fill="#06B6D4" opacity="0.18" filter="url(#blur8L)">
-          <animate attributeName="y" values="40;340;40" dur="4.6s" repeatCount="indefinite"/>
+        <!-- Scanline Effect -->
+        <rect x="0" y="20" width="310" height="8" fill="#06B6D4" opacity="0.12" filter="url(#blur8L)">
+          <animate attributeName="y" values="20;380;20" dur="4.6s" repeatCount="indefinite" begin="2s"/>
         </rect>
       </g>
 
-      <!-- Text Content -->
-      <g transform="translate(400,60)">
-        <text x="0" y="0" fill="#0F172A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="48" font-weight="700">Hasen Albanna</text>
-        <rect x="0" y="20" width="400" height="4" rx="2" fill="url(#accentL)" opacity="0.9"/>
-        
-        <text x="0" y="70" fill="url(#accentL)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="28" font-weight="600">AI &amp; ML Engineer</text>
-        
-        <text x="0" y="130" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Passionate about</text>
-        <text x="0" y="160" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Machine Learning, Computer Vision &amp;</text>
-        <text x="0" y="190" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Full Stack Development</text>
+      <!-- Terminal prompt text -->
+      <g transform="translate(20,400)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="url(#asciiGradL)" filter="url(#glowTextL)">
+        <text x="0" y="0" opacity="0">
+          [developer@hasen ~]$
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="2.2s" fill="freeze"/>
+        </text>
+        <text x="0" y="25" opacity="0">
+          > neural_network.initialize()
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="2.9s" fill="freeze"/>
+        </text>
+        <text x="0" y="50" opacity="0">
+          > model_confidence: 99.2%
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="3.6s" fill="freeze"/>
+        </text>
+      </g>
+    </g>
 
-        <!-- Skills pills -->
-        <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#0F172A">
-          <g transform="translate(0,240)">
-            <rect x="0" y="0" width="90" height="36" rx="18" fill="#F8FAFC" stroke="url(#accentL)" stroke-opacity="0.5" stroke-width="2"/>
-            <text x="18" y="24">Python</text>
-          </g>
-          <g transform="translate(110,240)">
-            <rect x="0" y="0" width="90" height="36" rx="18" fill="#F8FAFC" stroke="url(#accentL)" stroke-opacity="0.5" stroke-width="2"/>
-            <text x="14" y="24">PyTorch</text>
-          </g>
-          <g transform="translate(220,240)">
-            <rect x="0" y="0" width="110" height="36" rx="18" fill="#F8FAFC" stroke="url(#accentL)" stroke-opacity="0.5" stroke-width="2"/>
-            <text x="18" y="24">TensorFlow</text>
-          </g>
-          <g transform="translate(350,240)">
-            <rect x="0" y="0" width="70" height="36" rx="18" fill="#F8FAFC" stroke="url(#accentL)" stroke-opacity="0.5" stroke-width="2"/>
-            <text x="12" y="24">LLMs</text>
-          </g>
+    <!-- RIGHT SECTION - TERMINAL WINDOW -->
+    <g transform="translate(450,70)">
+      <rect x="0" y="0" width="660" height="470" rx="20" fill="#FFFFFF" fill-opacity="0.95" stroke="rgba(15,23,42,0.08)"/>
+
+      <!-- Terminal Header -->
+      <circle cx="24" cy="24" r="6" fill="#FB7185"/>
+      <circle cx="46" cy="24" r="6" fill="#F59E0B"/>
+      <circle cx="68" cy="24" r="6" fill="#34D399"/>
+
+      <!-- Greeting -->
+      <g transform="translate(28,72)">
+        <text x="0" y="0" fill="#0F172A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Hi 👋, I'm Hasen Albanna</text>
+      </g>
+
+      <!-- Animated Underline -->
+      <rect x="28" y="94" width="380" height="3" rx="2" fill="url(#accentL)" opacity="0.9">
+        <animate attributeName="width" values="0;380" dur="0.8s" begin="4.5s" fill="freeze"/>
+      </rect>
+
+      <!-- Typing Role Animation -->
+      <g transform="translate(28,138)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" fill="url(#accentL)" filter="url(#glowTextL)">
+        <!-- Frontend Engineer -->
+        <text x="0" y="0" opacity="0">
+          Frontend Engineer
+          <animate attributeName="opacity" values="0;1" dur="0.6s" begin="5.3s" fill="freeze"/>
+        </text>
+        <text x="0" y="0" opacity="0">
+          Full Stack Developer
+          <animate attributeName="opacity" values="0;1" dur="0.6s" begin="8.5s"/>
+          <animate attributeName="opacity" values="1;0" dur="0.6s" begin="8.5s"/>
+        </text>
+        <text x="0" y="0" opacity="0">
+          AI Enthusiast
+          <animate attributeName="opacity" values="0;1" dur="0.6s" begin="11.7s"/>
+          <animate attributeName="opacity" values="1;0" dur="0.6s" begin="11.7s"/>
+        </text>
+
+        <!-- Blinking Cursor -->
+        <rect x="400" y="-18" width="10" height="28" fill="#06B6D4">
+          <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" begin="5.3s"/>
+        </rect>
+      </g>
+
+      <!-- Info Section - Sequential Reveal -->
+      <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" fill="#475569">
+        <text x="28" y="210" opacity="0">📍 Location: Earth
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="6s" fill="freeze"/>
+        </text>
+        <text x="28" y="245" opacity="0">🎓 Education: Self-Taught + Continuous Learning
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="6.7s" fill="freeze"/>
+        </text>
+        <text x="28" y="280" opacity="0">🚀 Current Focus: Applied AI, LLM apps, MLOps
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="7.4s" fill="freeze"/>
+        </text>
+        <text x="28" y="315" opacity="0">💼 Portfolio: hasenalbanna.dev
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="8.1s" fill="freeze"/>
+        </text>
+        <text x="28" y="350" opacity="0">📧 Email: hello@hasenalbanna.dev
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="8.8s" fill="freeze"/>
+        </text>
+      </g>
+
+      <!-- Skills Glowing Pills -->
+      <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#0F172A">
+        <g transform="translate(28,375)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.6s" begin="9.5s" fill="freeze"/>
+          <rect x="0" y="0" width="86" height="36" rx="18" fill="#F8FAFC" stroke="url(#accentL)" stroke-opacity="0.5" stroke-width="1.5"/>
+          <text x="15" y="24">Python</text>
+        </g>
+        <g transform="translate(124,375)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.6s" begin="9.9s" fill="freeze"/>
+          <rect x="0" y="0" width="86" height="36" rx="18" fill="#F8FAFC" stroke="url(#accentL)" stroke-opacity="0.5" stroke-width="1.5"/>
+          <text x="12" y="24">PyTorch</text>
+        </g>
+        <g transform="translate(220,375)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.6s" begin="10.3s" fill="freeze"/>
+          <rect x="0" y="0" width="105" height="36" rx="18" fill="#F8FAFC" stroke="url(#accentL)" stroke-opacity="0.5" stroke-width="1.5"/>
+          <text x="15" y="24">TensorFlow</text>
+        </g>
+        <g transform="translate(335,375)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.6s" begin="10.7s" fill="freeze"/>
+          <rect x="0" y="0" width="58" height="36" rx="18" fill="#F8FAFC" stroke="url(#accentL)" stroke-opacity="0.5" stroke-width="1.5"/>
+          <text x="12" y="24">LLMs</text>
+        </g>
+        <g transform="translate(403,375)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.6s" begin="11.1s" fill="freeze"/>
+          <rect x="0" y="0" width="80" height="36" rx="18" fill="#F8FAFC" stroke="url(#accentL)" stroke-opacity="0.5" stroke-width="1.5"/>
+          <text x="15" y="24">MLOps</text>
+        </g>
+      </g>
+
+      <!-- Social Icons -->
+      <g transform="translate(28,430)" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.6s" begin="11.8s" fill="freeze"/>
+        <!-- GitHub -->
+        <g transform="translate(0,0)">
+          <circle cx="16" cy="16" r="14" fill="none" stroke="url(#accentL)" stroke-width="1.5" opacity="0.6"/>
+          <text x="10" y="20" font-size="12" fill="url(#accentL)">⚙</text>
+        </g>
+        <!-- LinkedIn -->
+        <g transform="translate(50,0)">
+          <circle cx="16" cy="16" r="14" fill="none" stroke="url(#accentL)" stroke-width="1.5" opacity="0.6"/>
+          <text x="10" y="20" font-size="12" fill="url(#accentL)">⚙</text>
+        </g>
+        <!-- Twitter -->
+        <g transform="translate(100,0)">
+          <circle cx="16" cy="16" r="14" fill="none" stroke="url(#accentL)" stroke-width="1.5" opacity="0.6"/>
+          <text x="10" y="20" font-size="12" fill="url(#accentL)">⚙</text>
+        </g>
+        <!-- Portfolio -->
+        <g transform="translate(150,0)">
+          <circle cx="16" cy="16" r="14" fill="none" stroke="url(#accentL)" stroke-width="1.5" opacity="0.6"/>
+          <text x="10" y="20" font-size="12" fill="url(#accentL)">⚙</text>
         </g>
       </g>
     </g>
