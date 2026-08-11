@@ -1,203 +1,207 @@
-<svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="hasenalbanna premium profile hero dark">
+<svg width="1180" height="610" viewBox="0 0 1180 610" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hasen Albanna - AI & Machine Learning Engineer banner (dark)">
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1180" y2="610" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bgGradD" x1="0" y1="0" x2="1180" y2="610" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#030712"/>
       <stop offset="1" stop-color="#020617"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 150) rotate(20) scale(300 220)">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+
+    <radialGradient id="glowBlueD" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 140) rotate(35) scale(380 260)">
+      <stop stop-color="#2563EB" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(880 130) rotate(12) scale(320 200)">
-      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.16"/>
+    <radialGradient id="glowPurpleD" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(860 120) rotate(20) scale(360 220)">
+      <stop stop-color="#7C3AED" stop-opacity="0.18"/>
       <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowC" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 520) rotate(-8) scale(260 180)">
-      <stop offset="0" stop-color="#10B981" stop-opacity="0.14"/>
+    <radialGradient id="glowEmeraldD" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(900 500) rotate(-15) scale(340 240)">
+      <stop stop-color="#10B981" stop-opacity="0.14"/>
       <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
     </radialGradient>
 
-    <linearGradient id="accentGrad" x1="120" y1="60" x2="1080" y2="560" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accentD" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#7C3AED"/>
       <stop offset="0.5" stop-color="#22D3EE"/>
       <stop offset="1" stop-color="#10B981"/>
-      <animate attributeName="x1" values="120;220;120" dur="12s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="1080;980;1080" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="x1" values="0;1;0" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0;1;0" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="1;0;1" dur="10s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <linearGradient id="asciiGrad" x1="60" y1="100" x2="420" y2="470" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#67E8F9"/>
-      <stop offset="0.45" stop-color="#A78BFA"/>
+    <linearGradient id="asciiGradD" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
       <stop offset="1" stop-color="#22D3EE"/>
-      <animate attributeName="x1" values="60;150;60" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="y2" values="470;410;470" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="1;0;1" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <linearGradient id="borderShimmer" x1="0" y1="0" x2="1180" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.05"/>
-      <stop offset="0.4" stop-color="#FFFFFF" stop-opacity="0.18"/>
-      <stop offset="0.7" stop-color="#FFFFFF" stop-opacity="0.06"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05"/>
-      <animate attributeName="x1" values="-400;1180;-400" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0;1580;0" dur="8s" repeatCount="indefinite"/>
+    <filter id="blur20" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <filter id="blur8" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="shadowD" x="-20%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <filter id="glowTextD" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#22D3EE" flood-opacity="0.6"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#7C3AED" flood-opacity="0.35"/>
+    </filter>
+
+    <clipPath id="clipCanvasD">
+      <rect x="10" y="10" width="1160" height="590" rx="28"/>
+    </clipPath>
+    <clipPath id="clipAvatarD">
+      <circle cx="230" cy="305" r="150"/>
+    </clipPath>
+
+    <mask id="scanMaskD">
+      <rect x="0" y="0" width="1180" height="610" fill="white"/>
+      <rect x="0" y="0" width="1180" height="610" fill="url(#scanPatternD)" opacity="0.25"/>
+    </mask>
+
+    <linearGradient id="scanPatternD" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="white" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="white" stop-opacity="1"/>
+      <stop offset="1" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#020617" flood-opacity="0.45"/>
-    </filter>
-
-    <clipPath id="canvasClip">
-      <rect x="0" y="0" width="1180" height="610" rx="32"/>
-    </clipPath>
-
-    <clipPath id="asciiClip">
-      <rect x="40" y="70" width="400" height="490" rx="20"/>
-    </clipPath>
-
-    <clipPath id="roleClipA"><rect x="530" y="185" width="0" height="30"><animate attributeName="width" values="0;330;330;0;0" keyTimes="0;0.18;0.78;0.92;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="roleClipB"><rect x="530" y="185" width="0" height="30"><animate attributeName="width" values="0;0;0;330;330;0;0" keyTimes="0;0.2;0.22;0.4;0.78;0.92;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="roleClipC"><rect x="530" y="185" width="0" height="30"><animate attributeName="width" values="0;0;0;330;330;0;0" keyTimes="0;0.42;0.44;0.62;0.78;0.92;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="roleClipD"><rect x="530" y="185" width="0" height="30"><animate attributeName="width" values="0;0;0;330;330;0;0" keyTimes="0;0.64;0.66;0.78;0.84;0.92;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="roleClipE"><rect x="530" y="185" width="0" height="30"><animate attributeName="width" values="0;0;0;330;330;0;0" keyTimes="0;0.8;0.82;0.92;0.97;0.99;1" dur="18s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
-  <g clip-path="url(#canvasClip)">
-    <rect width="1180" height="610" fill="url(#bgGrad)"/>
-    <rect width="1180" height="610" fill="url(#glowA)"><animate attributeName="opacity" values="0.8;1;0.7;0.8" dur="10s" repeatCount="indefinite"/></rect>
-    <rect width="1180" height="610" fill="url(#glowB)"><animate attributeName="opacity" values="0.7;1;0.8;0.7" dur="12s" repeatCount="indefinite"/></rect>
-    <rect width="1180" height="610" fill="url(#glowC)"><animate attributeName="opacity" values="0.8;0.6;1;0.8" dur="11s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#clipCanvasD)">
+    <rect width="1180" height="610" fill="url(#bgGradD)"/>
+    <rect width="1180" height="610" fill="url(#glowBlueD)"/>
+    <rect width="1180" height="610" fill="url(#glowPurpleD)"/>
+    <rect width="1180" height="610" fill="url(#glowEmeraldD)"/>
 
-    <g opacity="0.45">
-      <circle cx="90" cy="90" r="2" fill="#22D3EE"><animateMotion dur="14s" repeatCount="indefinite" path="M0 0 C140 40 180 120 260 80 C350 30 440 60 520 130"/></circle>
-      <circle cx="980" cy="150" r="2" fill="#10B981"><animateMotion dur="16s" repeatCount="indefinite" path="M0 0 C-120 100 -220 40 -380 140 C-500 210 -660 160 -760 240"/></circle>
-      <circle cx="1080" cy="500" r="2" fill="#A78BFA"><animateMotion dur="18s" repeatCount="indefinite" path="M0 0 C-180 -50 -300 -10 -500 -90 C-640 -150 -760 -100 -920 -170"/></circle>
-      <circle cx="260" cy="520" r="2" fill="#67E8F9"><animateMotion dur="15s" repeatCount="indefinite" path="M0 0 C120 -40 210 -120 320 -160 C430 -200 550 -220 700 -190"/></circle>
+    <!-- Floating particles -->
+    <g opacity="0.5">
+      <circle cx="120" cy="80" r="2" fill="#67E8F9">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 8 14; 0 0" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="420" cy="150" r="1.8" fill="#A78BFA">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -10 12; 0 0" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="980" cy="90" r="2" fill="#34D399">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 7 10; 0 0" dur="5.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1040" cy="500" r="2" fill="#67E8F9">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -12 -10; 0 0" dur="8s" repeatCount="indefinite"/>
+      </circle>
     </g>
 
-    <g filter="url(#cardShadow)">
-      <rect x="26" y="26" width="1128" height="558" rx="28" fill="#0B1324" fill-opacity="0.5"/>
-    </g>
+    <!-- Main glass panel -->
+    <rect x="36" y="36" width="1108" height="538" rx="24" fill="#0F172A" fill-opacity="0.72" stroke="rgba(255,255,255,0.08)" filter="url(#shadowD)"/>
+    <rect x="36" y="36" width="1108" height="538" rx="24" fill="none" stroke="url(#accentD)" stroke-opacity="0.35">
+      <animate attributeName="stroke-opacity" values="0.2;0.45;0.2" dur="4s" repeatCount="indefinite"/>
+    </rect>
 
-    <rect x="26" y="26" width="1128" height="558" rx="28" fill="none" stroke="rgba(255,255,255,0.08)"/>
-    <rect x="26" y="26" width="1128" height="558" rx="28" fill="none" stroke="url(#borderShimmer)"/>
+    <!-- Border shimmer -->
+    <rect x="36" y="36" width="1108" height="538" rx="24" fill="none" stroke="url(#accentD)" stroke-width="1.5" stroke-dasharray="80 120" stroke-linecap="round" opacity="0.45">
+      <animate attributeName="stroke-dashoffset" values="0;-400" dur="8s" repeatCount="indefinite"/>
+    </rect>
 
-    <rect x="40" y="50" width="428" height="510" rx="24" fill="#0F172A" stroke="rgba(255,255,255,0.08)"/>
-    <rect x="488" y="50" width="652" height="510" rx="24" fill="#0F172A" stroke="rgba(255,255,255,0.08)"/>
+    <!-- Left section -->
+    <g transform="translate(70,70)">
+      <rect x="0" y="0" width="350" height="470" rx="20" fill="#0B1220" fill-opacity="0.88" stroke="rgba(255,255,255,0.07)"/>
 
-    <g clip-path="url(#asciiClip)">
-      <rect x="40" y="70" width="400" height="490" rx="20" fill="#0A1222"/>
-      <g opacity="0.13">
-        <rect x="40" y="70" width="400" height="6" fill="#22D3EE"><animate attributeName="y" values="70;560;70" dur="7s" repeatCount="indefinite"/></rect>
+      <g transform="translate(0,0)">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="5s" repeatCount="indefinite"/>
+        <circle cx="175" cy="235" r="164" fill="url(#accentD)" opacity="0.15" filter="url(#blur20)"/>
+        <circle cx="175" cy="235" r="152" fill="#020617" stroke="rgba(255,255,255,0.08)"/>
+        <circle cx="175" cy="235" r="150" fill="#0F172A"/>
+
+        <!-- USER PHOTO PLACEHOLDER -->
+        <!-- Replace href with your hosted image URL if needed -->
+        <g clip-path="url(#clipAvatarD)">
+          <image href="https://avatars.githubusercontent.com/u/1?v=4" x="80" y="155" width="300" height="300" preserveAspectRatio="xMidYMid slice" opacity="0.92"/>
+        </g>
+
+        <!-- scanline -->
+        <rect x="25" y="80" width="300" height="12" fill="#22D3EE" opacity="0.15" filter="url(#blur8)">
+          <animate attributeName="y" values="80;380;80" dur="4.6s" repeatCount="indefinite"/>
+        </rect>
       </g>
 
-      <g font-family="monospace" font-size="18" fill="url(#asciiGrad)" filter="url(#softGlow)">
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
-          <text x="62" y="130" opacity="0">⠀⠀⠀⠀⠀⠀⣠⣶⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀<animate attributeName="opacity" values="0;1" begin="0.2s" dur="0.25s" fill="freeze"/></text>
-          <text x="62" y="156" opacity="0">⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀<animate attributeName="opacity" values="0;1" begin="0.45s" dur="0.25s" fill="freeze"/></text>
-          <text x="62" y="182" opacity="0">⠀⠀⠀⠀⣾⣿⡟⠛⠛⠻⣿⣿⣷⠀⠀⠀⠀⠀<animate attributeName="opacity" values="0;1" begin="0.7s" dur="0.25s" fill="freeze"/></text>
-          <text x="62" y="208" opacity="0">⠀⠀⠀⢸⣿⣿⠁⢠⣤⡄⠈⣿⣿⡇⠀⠀⠀⠀<animate attributeName="opacity" values="0;1" begin="0.95s" dur="0.25s" fill="freeze"/></text>
-          <text x="62" y="234" opacity="0">⠀⠀⠀⢸⣿⣿⠀⠘⠿⠃⠀⣿⣿⡇⠀⠀⠀⠀<animate attributeName="opacity" values="0;1" begin="1.2s" dur="0.25s" fill="freeze"/></text>
-          <text x="62" y="260" opacity="0">⠀⠀⠀⠈⣿⣿⣆⠀⠀⠀⣰⣿⣿⠁⠀⠀⠀⠀<animate attributeName="opacity" values="0;1" begin="1.45s" dur="0.25s" fill="freeze"/></text>
-          <text x="62" y="286" opacity="0">⠀⠀⠀⠀⠘⢿⣿⣶⣶⣾⣿⡿⠃⠀⠀⠀⠀⠀<animate attributeName="opacity" values="0;1" begin="1.7s" dur="0.25s" fill="freeze"/></text>
-          <text x="62" y="312" opacity="0">⠀⠀⠀⠀⠀⠀⠉⠻⠿⠟⠉⠀⠀⠀⠀⠀⠀⠀<animate attributeName="opacity" values="0;1" begin="1.95s" dur="0.25s" fill="freeze"/></text>
-          <text x="62" y="360" opacity="0">  &gt; initializing coder_identity ...<animate attributeName="opacity" values="0;1" begin="2.2s" dur="0.25s" fill="freeze"/></text>
-          <text x="62" y="386" opacity="0">  &gt; alias: hasenalbanna<animate attributeName="opacity" values="0;1" begin="2.45s" dur="0.25s" fill="freeze"/></text>
-          <text x="62" y="412" opacity="0">  &gt; status: online<animate attributeName="opacity" values="0;1" begin="2.7s" dur="0.25s" fill="freeze"/></text>
-          <rect x="318" y="398" width="12" height="20" fill="#67E8F9">
-            <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-          </rect>
+      <!-- pseudo terminal ascii accent -->
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" fill="url(#asciiGradD)" opacity="0.72" filter="url(#glowTextD)">
+        <text x="18" y="420">[ai@hasenalbanna ~]$ initialize_profile --ml --vision</text>
+        <text x="18" y="440" opacity="0">
+          &gt; loading neural identity...
+          <animate attributeName="opacity" values="0;1;1" dur="2s" begin="0.8s" fill="freeze"/>
+        </text>
+        <text x="18" y="458" opacity="0">
+          &gt; model confidence: 99.2%
+          <animate attributeName="opacity" values="0;1;1" dur="2s" begin="1.4s" fill="freeze"/>
+        </text>
+      </g>
+    </g>
+
+    <!-- Right terminal -->
+    <g transform="translate(450,70)">
+      <rect x="0" y="0" width="660" height="470" rx="20" fill="#0B1220" fill-opacity="0.86" stroke="rgba(255,255,255,0.08)"/>
+
+      <circle cx="24" cy="24" r="6" fill="#FB7185"/>
+      <circle cx="46" cy="24" r="6" fill="#F59E0B"/>
+      <circle cx="68" cy="24" r="6" fill="#34D399"/>
+
+      <text x="28" y="72" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">Hi, I’m Hasen Albanna</text>
+      <rect x="28" y="84" width="360" height="3" rx="2" fill="url(#accentD)" opacity="0.8"/>
+
+      <!-- role typing line -->
+      <g transform="translate(28,118)" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="24" fill="url(#accentD)">
+        <text x="0" y="0">AI &amp; Machine Learning Engineer</text>
+        <rect x="418" y="-20" width="10" height="26" fill="#22D3EE">
+          <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" fill="#94A3B8">
+        <text x="28" y="170" opacity="0">Location: Earth
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.5s" fill="freeze"/>
+        </text>
+        <text x="28" y="202" opacity="0">Education: Self-Taught + Continuous Learning
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.9s" fill="freeze"/>
+        </text>
+        <text x="28" y="234" opacity="0">Current Focus: Applied AI, LLM apps, MLOps
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="1.3s" fill="freeze"/>
+        </text>
+        <text x="28" y="266" opacity="0">Portfolio: hasenalbanna.dev
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="1.7s" fill="freeze"/>
+        </text>
+        <text x="28" y="298" opacity="0">Email: hello@hasenalbanna.dev
+          <animate attributeName="opacity" values="0;1" dur="0.7s" begin="2.1s" fill="freeze"/>
+        </text>
+      </g>
+
+      <!-- skills pills -->
+      <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" fill="#E2E8F0">
+        <g transform="translate(28,334)">
+          <rect x="0" y="0" width="78" height="30" rx="15" fill="#111827" stroke="url(#accentD)" stroke-opacity="0.45"/>
+          <text x="18" y="20">Python</text>
+        </g>
+        <g transform="translate(116,334)">
+          <rect x="0" y="0" width="70" height="30" rx="15" fill="#111827" stroke="url(#accentD)" stroke-opacity="0.45"/>
+          <text x="14" y="20">PyTorch</text>
+        </g>
+        <g transform="translate(196,334)">
+          <rect x="0" y="0" width="60" height="30" rx="15" fill="#111827" stroke="url(#accentD)" stroke-opacity="0.45"/>
+          <text x="15" y="20">TensorFlow</text>
+        </g>
+        <g transform="translate(266,334)">
+          <rect x="0" y="0" width="58" height="30" rx="15" fill="#111827" stroke="url(#accentD)" stroke-opacity="0.45"/>
+          <text x="14" y="20">LLMs</text>
+        </g>
+        <g transform="translate(334,334)">
+          <rect x="0" y="0" width="64" height="30" rx="15" fill="#111827" stroke="url(#accentD)" stroke-opacity="0.45"/>
+          <text x="17" y="20">MLOps</text>
         </g>
       </g>
 
-      <rect x="40" y="70" width="400" height="490" fill="none" stroke="rgba(255,255,255,0.06)"/>
-    </g>
-
-    <g>
-      <rect x="488" y="50" width="652" height="44" rx="24" fill="#0D1528"/>
-      <circle cx="514" cy="72" r="6" fill="#EF4444"/>
-      <circle cx="536" cy="72" r="6" fill="#F59E0B"/>
-      <circle cx="558" cy="72" r="6" fill="#10B981"/>
-      <text x="586" y="78" font-family="monospace" font-size="14" fill="#94A3B8">~/profile/hero-terminal</text>
-    </g>
-
-    <g font-family="-apple-system,Segoe UI,Arial,sans-serif" fill="#F8FAFC">
-      <text x="530" y="136" font-size="30" font-weight="600">Hi</text>
-      <text x="530" y="174" font-size="42" font-weight="700">I’m hasenalbanna</text>
-
-      <g font-size="24" fill="url(#accentGrad)">
-        <text x="530" y="210" clip-path="url(#roleClipA)" opacity="1">Frontend Engineer</text>
-        <text x="530" y="210" clip-path="url(#roleClipB)" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.4;0.44" dur="18s" repeatCount="indefinite"/>Full Stack Developer</text>
-        <text x="530" y="210" clip-path="url(#roleClipC)" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.42;0.62;0.66" dur="18s" repeatCount="indefinite"/>Open Source Contributor</text>
-        <text x="530" y="210" clip-path="url(#roleClipD)" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.64;0.78;0.82" dur="18s" repeatCount="indefinite"/>UI Engineer</text>
-        <text x="530" y="210" clip-path="url(#roleClipE)" opacity="0"><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.8;0.92;0.96" dur="18s" repeatCount="indefinite"/>AI Enthusiast</text>
-      </g>
-      <rect x="852" y="188" width="10" height="22" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
-
-      <g fill="#94A3B8" font-size="17">
-        <text x="530" y="260" opacity="0">📍 Location: Earth<animate attributeName="opacity" values="0;1" begin="1s" dur="0.5s" fill="freeze"/></text>
-        <text x="530" y="290" opacity="0">🎓 Education: Self-Taught + Continuous Learning<animate attributeName="opacity" values="0;1" begin="1.4s" dur="0.5s" fill="freeze"/></text>
-        <text x="530" y="320" opacity="0">⚡ Current Focus: Building performant web experiences<animate attributeName="opacity" values="0;1" begin="1.8s" dur="0.5s" fill="freeze"/></text>
-        <text x="530" y="350" opacity="0">🌐 Portfolio: https://hasenalbanna.dev<animate attributeName="opacity" values="0;1" begin="2.2s" dur="0.5s" fill="freeze"/></text>
-        <text x="530" y="380" opacity="0">✉️ Email: hello@hasenalbanna.dev<animate attributeName="opacity" values="0;1" begin="2.6s" dur="0.5s" fill="freeze"/></text>
+      <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#93C5FD">
+        <text x="28" y="434">GitHub · LinkedIn · Twitter · Portfolio</text>
       </g>
     </g>
-
-    <g font-family="-apple-system,Segoe UI,Arial,sans-serif" font-size="14" fill="#F8FAFC">
-      <g transform="translate(530 416)">
-        <g>
-          <rect width="72" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/>
-          <text x="36" y="19" text-anchor="middle">React</text>
-          <animateTransform attributeName="transform" type="scale" values="1;1.03;1" dur="4s" repeatCount="indefinite"/>
-        </g>
-        <g transform="translate(82 0)"><rect width="78" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/><text x="39" y="19" text-anchor="middle">Next.js</text></g>
-        <g transform="translate(170 0)"><rect width="80" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/><text x="40" y="19" text-anchor="middle">Node.js</text></g>
-        <g transform="translate(260 0)"><rect width="92" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/><text x="46" y="19" text-anchor="middle">TypeScript</text></g>
-        <g transform="translate(362 0)"><rect width="84" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/><text x="42" y="19" text-anchor="middle">Tailwind</text></g>
-      </g>
-      <g transform="translate(530 452)">
-        <g><rect width="78" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/><text x="39" y="19" text-anchor="middle">Python</text></g>
-        <g transform="translate(88 0)"><rect width="76" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/><text x="38" y="19" text-anchor="middle">Docker</text></g>
-        <g transform="translate(174 0)"><rect width="88" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/><text x="44" y="19" text-anchor="middle">Postgres</text></g>
-        <g transform="translate(272 0)"><rect width="62" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/><text x="31" y="19" text-anchor="middle">AWS</text></g>
-        <g transform="translate(344 0)"><rect width="54" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/><text x="27" y="19" text-anchor="middle">Git</text></g>
-        <g transform="translate(408 0)"><rect width="76" height="28" rx="14" fill="#111B31" stroke="rgba(255,255,255,0.1)"/><text x="38" y="19" text-anchor="middle">Figma</text></g>
-      </g>
-      <g opacity="0.85"><animate attributeName="opacity" values="0.75;1;0.75" dur="3.2s" repeatCount="indefinite"/></g>
-    </g>
-
-    <g transform="translate(530 514)" font-family="-apple-system,Segoe UI,Arial,sans-serif" fill="#94A3B8" font-size="15">
-      <g>
-        <circle cx="10" cy="-5" r="9" fill="none" stroke="url(#accentGrad)"/>
-        <text x="26" y="0">GitHub</text>
-      </g>
-      <g transform="translate(140 0)">
-        <circle cx="10" cy="-5" r="9" fill="none" stroke="url(#accentGrad)"/>
-        <text x="26" y="0">LinkedIn</text>
-      </g>
-      <g transform="translate(306 0)">
-        <circle cx="10" cy="-5" r="9" fill="none" stroke="url(#accentGrad)"/>
-        <text x="26" y="0">Twitter</text>
-      </g>
-      <g transform="translate(452 0)">
-        <circle cx="10" cy="-5" r="9" fill="none" stroke="url(#accentGrad)"/>
-        <text x="26" y="0">Portfolio</text>
-      </g>
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/>
-    </g>
-
-    <path d="M-40 0 L280 0 L120 610 L-200 610 Z" fill="url(#accentGrad)" opacity="0.06">
-      <animateTransform attributeName="transform" type="translate" values="0 0;30 0;0 0" dur="9s" repeatCount="indefinite"/>
-    </path>
-
-    <rect x="0" y="0" width="1180" height="610" fill="none" stroke="rgba(255,255,255,0.06)"/>
   </g>
 </svg>
