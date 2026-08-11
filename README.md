@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=AI+Developer;Flutter+Developer;Full+Stack+Developer;Computer+Vision+Engineer;Chess+Technology+Innovator" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+    <img src="./dark.svg" alt="hasenalbanna premium profile hero banner" width="100%" />
+  </picture>
 </p>
 
 <h1 align="center">Hi 👋,this is  Hasen Al Banna</h1>
